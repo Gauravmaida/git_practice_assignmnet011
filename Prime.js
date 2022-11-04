@@ -1,13 +1,13 @@
 let num = 17;
 let count = 0;
 for(let i = 1; i<=num; i++){
-    if(num%i!==0){
+    if(num%i==0){
         count++;
     }
 }
 if(count==2){
-    console.log("Prime")
+    console.log("It's a prime number");
 }
 else{
-    console.log("Not")
+    console.log("It's Not a prime number");
 }
